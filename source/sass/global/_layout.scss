@@ -1,2 +1,10 @@
 @import "global/base";
 
+
+.layout {
+  background: $c-layout-background url('../../assets/img/pattern.jpg') left top repeat;
+  margin: 0 auto;
+  min-height: 100%;
+  padding: 48px;
+  width: $page-width;
+}

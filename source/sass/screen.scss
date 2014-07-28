@@ -1,12 +1,17 @@
 
 @import "compass/reset";
 @import "global/fonts";
+@import "global/base";
 // @import "global/bootstrap_variables";
 // @import "bootstrap";
 
 @import "global/layout";
 
+html,body { height: 100%; }
 
 body {
-
+  background-color: $c-gray;
+  color: $c-brown;
+  font-family: $f-base;
+  font-size: $base-font-size;
 }

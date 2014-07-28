@@ -29,7 +29,8 @@ module.exports = function(grunt) {
         concat: {
             dist: {
                 src: [
-                    'source/js/vendor/**/*.js',
+                    'source/js/vendor/jquery/*.js',
+                    'source/js/vendor/*.js',
                     'source/js/*.js'
                 ],
                     dest: 'assets/js/script.js'
@@ -58,14 +59,14 @@ module.exports = function(grunt) {
         },
         watch: {
             scripts: {
-                files: ['source/coffee/**/*.js'],
-                tasks: ['jshint', 'concat', 'uglify'],
+                files: ['source/coffee/*.coffee'],
+                tasks: ['coffee', 'jshint', 'concat', 'uglify'],
                 options: {
                     spawn: false,
                 },
             },
             css: {
-                files: ['/source/sass/**/*.scss'],
+                files: ['source/sass/**/*.scss'],
                 tasks: ['compass'],
                 options: {
                     spawn: false,
