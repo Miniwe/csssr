@@ -47,7 +47,7 @@
             Полное ФИО
           </label>
           <div class="input-control">
-            <input type="text" id="personal-information-name" name="personal-information[name]" placeholder="Иванов Иван Иванович" />
+            <input type="text" id="personal-information-name" name="personal-information[name]" placeholder="Иванов Иван Иванович" value="Дрюков Виталий" />
           </div>
         </div>
         <div class="field">
@@ -55,7 +55,7 @@
             Год рождения
           </label>
           <div class="input-control">
-            <input type="text" id="personal-information-birthday" name="personal-information[birthday]" placeholder="1990" />
+            <input type="text" id="personal-information-birthday" name="personal-information[birthday]" placeholder="1990" value="1978" />
           </div>
         </div>
         <div class="field">
@@ -63,7 +63,7 @@
             Место жительства
           </label>
           <div class="input-control">
-            <input type="text" id="personal-information-location" name="personal-information[location]" placeholder="г. Иваново, Россия" />
+            <input type="text" id="personal-information-location" name="personal-information[location]" placeholder="г. Иваново, Россия" value="г. Москва, Россия" />
           </div>
         </div>
         <div class="field">
@@ -71,7 +71,7 @@
             Скайп
           </label>
           <div class="input-control">
-            <input type="text" id="personal-information-skype" name="personal-information[skype]" placeholder="ivanov" />
+            <input type="text" id="personal-information-skype" name="personal-information[skype]" placeholder="ivanov" value="miniwe78" />
           </div>
         </div>
         <div class="field">
@@ -79,7 +79,7 @@
             Почта
           </label>
           <div class="input-control">
-            <input type="text" id="personal-information-email" name="personal-information[email]" placeholder="ivanov@gmail.com" />
+            <input type="text" id="personal-information-email" name="personal-information[email]" placeholder="ivanov@gmail.com" value="miniwe@mail.ru" />
           </div>
         </div>
         <div class="field">
@@ -95,7 +95,7 @@
               </label>
             </div>
             <div class="radio-control">
-              <input type="radio" id="personal-information-graduate-no" name="personal-information[graduate]" value="no" />
+              <input type="radio" id="personal-information-graduate-no" name="personal-information[graduate]" value="no" checked />
               <label for="personal-information-graduate-no">
                 Нет
               </label>
@@ -117,23 +117,23 @@
         <div class="skills-list">
           <ul>
             <li>
-              <input type="checkbox" id="skills-bem" name="skills[bem]" />
+              <input type="checkbox" id="skills-bem" name="skills[bem]" checked />
               <label for="skills-bem">Методология БЭМ</label>
             </li>
             <li>
-              <input type="checkbox" id="skills-jquery" name="skills[jquery]" />
+              <input type="checkbox" id="skills-jquery" name="skills[jquery]" checked />
               <label for="skills-jquery">jQuery</label>
             </li>
             <li>
-              <input type="checkbox" id="skills-grunt" name="skills[grunt]" />
+              <input type="checkbox" id="skills-grunt" name="skills[grunt]" checked />
               <label for="skills-grunt">Использую GRUNT</label>
             </li>
             <li>
-              <input type="checkbox" id="skills-haml" name="skills[haml]" />
+              <input type="checkbox" id="skills-haml" name="skills[haml]" checked />
               <label for="skills-haml">HAML</label>
             </li>
             <li>
-              <input type="checkbox" id="skills-sass" name="skills[sass]" />
+              <input type="checkbox" id="skills-sass" name="skills[sass]" checked />
               <label for="skills-sass">SASS</label>
             </li>
             <li>
@@ -141,7 +141,7 @@
               <label for="skills-less">LESS</label>
             </li>
             <li>
-              <input type="checkbox" id="skills-coffee" name="skills[coffee]" />
+              <input type="checkbox" id="skills-coffee" name="skills[coffee]" checked />
               <label for="skills-coffee">CoffeeScript</label>
             </li>
           </ul>
@@ -177,19 +177,19 @@
               <label for="skills-letter">Верстка рассылок</label>
             </li>
             <li>
-              <input type="checkbox" id="skills-adaptive" name="skills[adaptive]" />
+              <input type="checkbox" id="skills-adaptive" name="skills[adaptive]" checked />
               <label for="skills-adaptive">Адаптивная верстка</label>
             </li>
             <li>
-              <input type="checkbox" id="skills-dropbox" name="skills[dropbox]" />
+              <input type="checkbox" id="skills-dropbox" name="skills[dropbox]" checked />
               <label for="skills-dropbox">Использую Dropbox</label>
             </li>
             <li>
-              <input type="checkbox" id="skills-gmail" name="skills[gmail]" />
+              <input type="checkbox" id="skills-gmail" name="skills[gmail]" checked />
               <label for="skills-gmail">Использую Gmail</label>
             </li>
             <li>
-              <input type="checkbox" id="skills-github" name="skills[github]" />
+              <input type="checkbox" id="skills-github" name="skills[github]" checked />
               <label for="skills-github">Использую GitHub</label>
             </li>
           </ul>
@@ -208,9 +208,9 @@
           <div class="input-control">
             <select name="js-level" id="js-level">
               <option value="0">Не владею</option>
-              <option value="19.7368421" selected>Использую готовые решения</option>
+              <option value="19.7368421">Использую готовые решения</option>
               <option value="49.3421052">Использую готовые решения и умею их переделывать</option>
-              <option value="100">Пишу сложные скрипты</option>
+              <option value="100" selected>Пишу сложные скрипты</option>
             </select>
 
           </div>
@@ -225,7 +225,7 @@
             Дата заполенения
           </label>
           <div class="input-control input-control-date">
-            <input type="text" id="completion-date" name="completion-date" placeholder="dd.mm.yyyy" maxlength='10 ' />
+            <input type="text" id="completion-date" name="completion-date" placeholder="dd.mm.yyyy" maxlength='10' value="29.07.2014" />
           </div>
 
         </div>
