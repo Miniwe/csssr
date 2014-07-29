@@ -1,6 +1,6 @@
 .field {
   display: table;
-  margin-bottom: 2px;
+  margin-bottom: 3px;
   width: 100%;
   label {
     padding-right: 16px;
@@ -17,5 +17,8 @@
    width: 206px;
    display: inline-block;
 
+  }
+  &.field-graduated {
+    margin-top: 26px;
   }
 }
