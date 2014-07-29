@@ -12,6 +12,7 @@
       var decoselect;
       decoselect = this;
       this.setValue = function(value) {
+        value = parseFloat(value);
         return $("#ds_arrow").animate({
           'left': "" + value + "%"
         });

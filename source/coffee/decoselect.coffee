@@ -4,6 +4,7 @@
     decoselect = @
 
     @setValue = (value) ->
+      value = parseFloat(value)
       $("#ds_arrow").animate 'left': "#{value}%"
 
     @select = $(@selector)
