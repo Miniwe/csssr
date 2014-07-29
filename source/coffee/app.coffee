@@ -1,7 +1,8 @@
 (($, window, undefined_) ->
   "use strict"
   $ ->
-    # alert 'watching !'
+    $("#js-level").decoselect()
+
     return
 
   return

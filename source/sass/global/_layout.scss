@@ -2,7 +2,7 @@
 
 
 .layout {
-  background: $c-layout-background url('../../assets/img/pattern.jpg') left top repeat;
+  background: $c-layout-background image-url('pattern.jpg') left top repeat;
   margin: 0 auto;
   min-height: 100%;
   width: $page-width;

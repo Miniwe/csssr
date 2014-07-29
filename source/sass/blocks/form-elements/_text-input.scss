@@ -2,13 +2,13 @@ input[type=text] {
   font-family: $f-input;
   font-size: $fs-input;
   color: $c-input-text;
-  background: transparent url('../../assets/img/bg-input.png') left bottom repeat-x;
+  background: transparent image-url('bg-input.png') left bottom repeat-x;
   padding: 10px;
   @include box-sizing(border-box);
   border: none;
   width: 100%;
   &:focus {
     outline: none;
-    background-image: url('../../assets/img/bg-input-focus.png');
+    background-image: image-url('bg-input-focus.png');
   }
 }

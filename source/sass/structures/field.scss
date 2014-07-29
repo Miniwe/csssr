@@ -1,6 +1,7 @@
 .field {
   display: table;
   margin-bottom: 2px;
+  width: 100%;
   label {
     padding-right: 16px;
     white-space: nowrap;
@@ -14,5 +15,7 @@
   }
   .input-control-date {
    width: 206px;
+   display: inline-block;
+
   }
 }

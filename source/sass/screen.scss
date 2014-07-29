@@ -2,13 +2,11 @@
 @import "compass/reset";
 @import "compass/css3/box-sizing";
 @import "compass/utilities/general/clearfix";
+@import "compass/css3/background-size";
 
 
 @import "global/fonts";
 @import "global/base";
-// @import "global/bootstrap_variables";
-// @import "bootstrap";
-
 @import "global/layout";
 @import "global/typo";
 
@@ -20,6 +18,7 @@
 @import "blocks/stamp";
 @import "blocks/form-elements";
 @import "blocks/skills-list";
+@import "blocks/deco-select";
 
 html,body { height: 100%; }
 

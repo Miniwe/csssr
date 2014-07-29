@@ -3,5 +3,36 @@
   ul {
     width: 33.33333%;
     float: left;
+    [type=checkbox] {
+      width: 0;
+      height: 0;
+      visibility: hidden;
+      vertical-align: middle;
+      cursor: pointer;
+      + label {
+        font-weight: bold;
+        cursor: pointer;
+        position: relative;
+        display: block;
+        padding-left: 30px;
+        display: block;
+        line-height: 25px;
+        &:before {
+          content: "";
+          display: block;
+          background: $sprites_bg;
+          background-position: -30px -30px;
+          width: 24px;
+          height: 30px;
+          position: absolute;
+          left: 0px;
+          top: -10px;
+        }
+      }
+      &:checked + label:before {
+        background-position: 0 -30px;
+      }
+    }
+
   }
 }
