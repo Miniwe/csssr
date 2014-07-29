@@ -5,6 +5,25 @@
   background: $c-layout-background url('../../assets/img/pattern.jpg') left top repeat;
   margin: 0 auto;
   min-height: 100%;
-  padding: 48px;
   width: $page-width;
+  padding: 48px 0 80px;
+
+  > header {
+    max-width: 90%;
+    margin: 0 auto;
+    margin-bottom:  38px;
+  }
+  > section {
+    max-width: 80%;
+    margin: 0 auto;
+    > article {
+      margin-bottom: 50px;
+      &:last-child {
+        margin-bottom: 0;
+
+      }
+    }
+  }
 }
+
+

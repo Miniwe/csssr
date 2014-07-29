@@ -1,11 +1,25 @@
 
 @import "compass/reset";
+@import "compass/css3/box-sizing";
+@import "compass/utilities/general/clearfix";
+
+
 @import "global/fonts";
 @import "global/base";
 // @import "global/bootstrap_variables";
 // @import "bootstrap";
 
 @import "global/layout";
+@import "global/typo";
+
+@import "structures/cf";
+@import "structures/field";
+
+@import "blocks/main-title";
+@import "blocks/logo";
+@import "blocks/stamp";
+@import "blocks/form-elements";
+@import "blocks/skills-list";
 
 html,body { height: 100%; }
 
@@ -13,5 +27,15 @@ body {
   background-color: $c-gray;
   color: $c-brown;
   font-family: $f-base;
-  font-size: $base-font-size;
+  font-size: $fs-base;
+}
+
+
+a {
+  $color: #014f98;
+  color: $color;
+  &:hover {
+    text-decoration: none;
+    color: scale-lightness($color,  10%);
+  }
 }

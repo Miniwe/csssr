@@ -1,0 +1,18 @@
+.field {
+  display: table;
+  margin-bottom: 2px;
+  label {
+    padding-right: 16px;
+    white-space: nowrap;
+    font-weight: 700;
+    vertical-align: -12px;
+  }
+  .input-control {
+    // outline: 1px solid #F00;
+    display: table-cell;
+    width: 100%;
+  }
+  .input-control-date {
+   width: 206px;
+  }
+}

@@ -1,0 +1,7 @@
+.skills-list {
+  @include clearfix;
+  ul {
+    width: 33.33333%;
+    float: left;
+  }
+}

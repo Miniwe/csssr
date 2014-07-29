@@ -1,0 +1,27 @@
+.radio-control {
+  display: inline-block;
+  padding: 10px;
+  label {
+    display: inline-block;
+    cursor: pointer;
+  }
+  [type=radio] {
+    width: 0;
+    height: 0;
+    visibility: hidden;
+    vertical-align: middle;
+    margin-right: 10px;
+    cursor: pointer;
+    &:after {
+      content: "";
+      width: 26px;
+      height: 26px;
+      display: block;
+      visibility: visible;
+      outline: 1px solid red;
+    }
+    &:checked:after {
+      background: red;
+    }
+  }
+}

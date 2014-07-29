@@ -20,22 +20,27 @@
 <body>
   <!--[if lt IE 7]><p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p><![endif]-->
   <div class="layout">
-    <header class="running-title">
+
+    <header class="running-title cf">
       <div class="logo">
-        <h3>CSSSR</h3>
-        Секретный архив учреждения
+        <img src="assets/img/logo.png" alt="CSSSR" width="154" height="49" />
+        <div class="slogan">
+          Секретный архив учреждения
+        </div>
       </div>
-      <div class="top-secret">
-        Совершенно секретно
-        <br />
-        Заполнено собственноручно
+      <div class="stamp">
+        <img src="assets/img/stamp.png" alt="Совершенно секретно. Заполнено собственноручно" width="254" height="108" />
       </div>
     </header>
+
     <section>
 
       <header>
-        <h1 class="main-title">Дело</h1>
+        <h1 class="main-title">
+          <img src="assets/img/title.png" alt="Дело" width="221" height="118" />
+        </h1>
       </header>
+
       <article class="personal-information">
         <div class="field">
           <label for="personal-information-name">
@@ -98,8 +103,8 @@
 
           </div>
         </div>
-
       </article>
+
       <article class="skills">
         <header>
           <h1>
@@ -109,45 +114,54 @@
         <div class="comment">
           Отемтьте только те технологии и типы задач, с которыми вы хорошо знакомы. Отсутсвие опыта отнюдь не означает, что у вас меньше шансов стать нашим сотрудником. Это означает, что вы будете получать те задачи, с которыми гарантировано будете справляться.
         </div>
-        <ul class="skills-list">
-          <li>Методология БЭМ</li>
-          <li>jQuery</li>
-          <li>Использую GRUNT</li>
-          <li>HAML</li>
-          <li>SASS</li>
-          <li>LESS</li>
-          <li>CoffeeScript</li>
-          <li class="reset-col">Jade</li>
-          <li>Stylus</li>
-          <li>Знаю (изучаю) Angular</li>
-          <li>Верстка под Android</li>
-          <li>Верстка под iOS</li>
-          <li>Верстка под Windows Phone</li>
-          <li class="reset-col">Верстка рассылок</li>
-          <li>Адаптивная верстка</li>
-          <li>Использую Dropbox</li>
-          <li>Использую Gmail</li>
-          <li>Использую GitHub</li>
+        <div class="skills-list">
+          <ul>
+            <li>Методология БЭМ</li>
+            <li>jQuery</li>
+            <li>Использую GRUNT</li>
+            <li>HAML</li>
+            <li>SASS</li>
+            <li>LESS</li>
+            <li>CoffeeScript</li>
+          </ul>
+          <ul>
+            <li>Jade</li>
+            <li>Stylus</li>
+            <li>Знаю (изучаю) Angular</li>
+            <li>Верстка под Android</li>
+            <li>Верстка под iOS</li>
+            <li>Верстка под Windows Phone</li>
+            <li>Верстка рассылок</li>
+          </ul>
+          <ul>
+            <li>Адаптивная верстка</li>
+            <li>Использую Dropbox</li>
+            <li>Использую Gmail</li>
+            <li>Использую GitHub</li>
+          </ul>
 
-        </ul>
+        </div>
       </article>
+
       <article class="js-skills">
         <header>
           <h1>
             Уровень владения JavaScript
           </h1>
+        </header>
 
-          <div class="range-control">
+        <div class="field">
+          <div class="input-control">
             <select name="js-level" id="js-level">
               <option value="0">Не владею</option>
-              <option value="4">Использую готовые решения</option>
-              <option value="6">Использую готовые решения и умею их переделывать</option>
-              <option value="9">Пишу сложные скрипты</option>
+              <option value="19.7368421">Использую готовые решения</option>
+              <option value="49,3421052">Использую готовые решения и умею их переделывать</option>
+              <option value="100">Пишу сложные скрипты</option>
             </select>
 
           </div>
 
-        </header>
+        </div>
 
       </article>
 
@@ -156,8 +170,8 @@
           <label for="completion-date">
             Дата заполенения
           </label>
-          <div class="input-control">
-            <input type="text" id="completion-date" name="completion-date" placeholder="dd.mm.yyyy" />
+          <div class="input-control input-control-date">
+            <input type="text" id="completion-date" name="completion-date" placeholder="dd.mm.yyyy" maxlength='10 ' />
           </div>
 
         </div>
